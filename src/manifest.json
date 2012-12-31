@@ -1,0 +1,13 @@
+﻿{
+"name": "Wo Yao Xia Pu",
+"version": "0.1",
+"description": "Wo Yao Xia Pu by a32",
+"manifest_version": 2,
+"content_scripts": [
+{
+"matches": ["https://dynamic.12306.cn/otsweb/*"],
+"js": ["jquery-1.8.3.min.js","style.js"],
+"run_at" : "document_idle",
+"all_frames" : true
+}]
+}
